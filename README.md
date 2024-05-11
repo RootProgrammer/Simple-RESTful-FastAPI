@@ -16,9 +16,17 @@ This repository contains a simple RESTful API built with FastAPI that manages a 
 ### Setting up a Virtual Environment
 It's recommended to use a virtual environment to handle the project dependencies. You can set one up by executing the following commands in your terminal:
 
+**On Unix or MacOS**:
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+source venv/bin/activate
+```
+
+On Windows:
+
+```bash
+python -m venv venv
+venv\Scripts\activate
 ```
 
 ### Installing Dependencies
